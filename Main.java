@@ -87,14 +87,12 @@ public class Main {
 
 //         Scanner scanner = new Scanner(System.in);
 
-//         // Menu items with prices
 //         String[] menu = {"Burger", "Pizza", "Pasta", "Salad", "Soda", "Ice Cream"};
 //         int[] prices = {5, 30, 20, 10, 5, 12};
 
 //         int totalBill = 0;
 
-//         // Display the menu
-//         System.out.println("bhelcome to our restaurant boiii! ee le menu");
+//         System.out.println("welcome to our restaurant boiii! ee le menu");
 //         for (int i = 0; i < menu.length; i++) {
 //             System.out.println((i + 1) + ". " + menu[i] + " $" + prices[i]);
 //         }
@@ -103,23 +101,18 @@ public class Main {
 //         while (true) {
 //             System.out.print("ha batao kya khana hai (1-6 or 0 to finish): ");
             
-//             // Taking input from the customer
 //             int choice = scanner.nextInt();
 
 //             if (choice == 0) {
-//                 // Exit the ordering process
 //                 break;
 //             } else if (choice >= 1 && choice <= 6) {
-//                 // Add the price of the chosen item to the total bill
 //                 totalBill += prices[choice - 1];
 //                 System.out.println("apka order hai: " + menu[choice - 1]);
 //             } else {
-//                 // Invalid input handling
 //                 System.out.println("smegal hai kya . jo number dikh rahe usme se select karo ji 1 and 6 me se.");
 //             }
 //         }
 
-//         // Print the total bill
 //         if (totalBill == 0) {
 //             System.out.println("kya ki khana ni tha, tho aae kyu be!");
 //         } else {
